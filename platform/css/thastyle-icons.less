@@ -1,0 +1,87 @@
+@logo-zoom : 0.5;
+
+.mixins-logo-ebook-position (@left: 5px, @top: 5px, @width:100px, @height: 90px) {
+	background-image:url('../images/logos-sprite.png');
+	background-repeat:no-repeat;
+	background-position: -(@left * @logo-zoom) -(@top * @logo-zoom);
+	width: (@width * @logo-zoom);
+	height: (@height * @logo-zoom);
+}
+
+#eBookLinks li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+    
+} 
+ 
+.logo-ebook-ebookpie {
+	.mixins-logo-ebook-position (0 , 300px, 300px);
+}
+
+.logo-ebook-sonyreaderstore {
+	.mixins-logo-ebook-position (400px , 200px, 300px);
+}
+
+.logo-ebook-bakerandtaylor {
+	.mixins-logo-ebook-position (300px , 300px, 350px);
+}
+
+.logo-ebook-nook {
+	.mixins-logo-ebook-position (0 , 200px, 170px);
+}
+
+.logo-ebook-copia {
+	.mixins-logo-ebook-position (0 , 0, 140px);
+}
+
+.logo-ebook-scribd {
+	.mixins-logo-ebook-position (200px , 0, 170px);
+}
+
+.logo-ebook-gardnersbooks {
+	.mixins-logo-ebook-position (200px , 200px, 170px);
+}
+
+.logo-ebook-ibookstore {
+	.mixins-logo-ebook-position (0 , 100px, 300px);
+}
+
+.logo-ebook-kindle {
+	.mixins-logo-ebook-position (300px , 100px, 100px);
+}
+
+.logo-ebook-amazon {
+	.mixins-logo-ebook-position (400px , 100px, 100px);
+}
+
+.logo-ebook-kobo {
+	.mixins-logo-ebook-position (400px , 0, 140px);
+}
+
+.logo-ebook-esentral {
+	.mixins-logo-ebook-position (500px, 100px, 100px);
+}
+
+
+
+
+.logo-ebook-issuu {
+	.mixins-logo-ebook-position (600px, 100px, 300px);
+}
+
+.logo-ebook-yudu {
+	.mixins-logo-ebook-position (700px, 300px, 300px);
+}
+
+.logo-ebook-epublish {
+	.mixins-logo-ebook-position (600px,   0px, 300px);
+}
+
+
+
+
+
+
+
+

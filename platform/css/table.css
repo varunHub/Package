@@ -1,0 +1,48 @@
+
+ul.table01
+{
+	width: 90%;
+	overflow: hidden;
+	background-color:#FFF;
+	margin: 9px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px; /*offset of tabs relative to browser left edge*/
+	font: 12px Verdana;
+	list-style-type: none;
+	border-left:#CCC 1px solid;
+	border-top: 1px solid #CCC; /*bottom horizontal line that runs beneath tabs*/
+	clear:both;
+}
+
+ul.table01 li
+{
+	overflow:hidden;
+	height:21px;
+	display: inline;
+	margin: 0;
+	float: left;
+	display: block;
+	padding: 10px 10px; /*padding inside each tab*/
+	border-right:#CCC 1px solid;
+	color: black;
+}
+
+ul.table01 li visited{}
+ul.table01 li:hover {background:#999;}
+ul.table01:hover {font-family:Verdana, Geneva, sans-serif;   background:#CCC;}
+ul.table01 li {display:inline; padding:2px; text-align:left; }
+ul.table01 li div {float:left; padding:1px;border-left: #CCC 1 solid;}
+ul.table01 li div.cA {width:16px; }  
+ul.table01 li div.c1 {width:40px; }  
+ul.table01 li div.c2 {width:60px;} 
+ul.table01 li div.c3 {width:90px;} 
+ul.table01 li div.c4 {width:110px;} 
+ul.table01 li div.c5 {width:130px;} 
+ul.table01 li div.c6 {width:150px;} 
+ul.table01 li div.c7 {width:170px;} 
+ul.table01 li div.c8 {width:190px;} 
+ul.table01 li div.c9 {width:210px;} 
+ul.table01 li div.c10 {width:230px;} 
+ul.table01 li div.c11 {width:240px;}
+ul.table01 li div.alignRight { text-align: right;}
